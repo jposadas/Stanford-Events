@@ -1,0 +1,98 @@
+/* Stylesheet for Stanford Events application */
+
+body {
+	background-color: #FFF5FF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	width: 50%;
+}
+
+.centered { text-align: center; }
+
+.left { text-align: left; }
+
+.gray { color: #747B7B; }
+
+.red { color: red; }
+
+.openSans { font-family: 'Open Sans', sans-serif; }
+
+.lobster { font-family: 'Lobster', sans-serif; }
+
+.listItemRed { background: rgba(204, 51, 0, 0.75); color: white; }
+
+.listItemBlack { background: rgba(0, 0, 0, 0.75); color: white; }
+
+.listItemPurple { background: rgba(153, 0, 204, 0.75); color: white; }
+
+p { font-size: 20px; }
+
+.halfwayDown { line-height: 2.5; height: 50px;}
+
+.spacing { line-height: 1.25; }
+
+.listItemRed:hover { 
+	background: rgba(204, 51, 0, 0.85); 
+
+	-webkit-transform:scale(1.05);
+	-moz-transform:translateX(10px);
+	-ms-transform:translateX(10px);
+	-o-transform:translateX(10px);
+	transform:translateX(10px);
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+
+.listItemBlack:hover { 
+	background: rgba(0, 0, 0, 0.85); 
+
+	-webkit-transform:scale(1.05);
+	-moz-transform:translateX(10px);
+	-ms-transform:translateX(10px);
+	-o-transform:translateX(10px);
+	transform:translateX(10px);
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+
+.listItemPurple:hover { 
+	background: rgba(153, 0, 204, 0.85);
+
+	-webkit-transform:scale(1.05);
+	-moz-transform:translateX(10px);
+	-ms-transform:translateX(10px);
+	-o-transform:translateX(10px);
+	transform:translateX(10px);
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+
+#home {
+	position: absolute;
+	left: 25%; top: 2.5%;
+}
+
+#back {
+	position: absolute;
+	left: 70%; top: 2.5%;
+}
+
+#message {
+	width: 100%;
+}
