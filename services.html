@@ -26,6 +26,9 @@
 
 <body class = "centered">
 
+	<p class = "lobster" id = "back" style = "font-size: 30px"> <a href = "index.html" onclick = "history.back(-1)"> Back </a> </p>
+	<p class = "lobster" id = "home" style = "font-size: 30px"> <a href = "index.html"> Home </a> </p>
+
 	<!-- Search bar -->
 
 	<form method="get" action="http://www.google.com/search"> 
@@ -43,16 +46,25 @@
 	<!-- List of event genres / navigation -->
 
 	<div class = "openSans">
-		<p class = "listItemBlack halfwayDown"> My Events </p>
-		<p class = "listItemBlack halfwayDown"> By Date </p>
-		<a href = "academic.html"> <p class = "listItemRed halfwayDown"> Academic </p> </a>
-		<a href = "athletic.html"> <p class = "listItemRed halfwayDown"> Athletic </p> </a>
-		<a href = "social.html"> <p class = "listItemRed halfwayDown"> Social </p> </a>
-		<a href = "services.html"> <p class = "listItemPurple halfwayDown"> Services </p> </a>
-		<a href = "about.html"> <p class = "listItemPurple halfwayDown"> About </p> </a>
-		<a href = "contact.html"> <p class = "listItemPurple halfwayDown"> Contact </p> </a>
+		<h2 class = "lobster"> Services </h2>
 
-		<br> <!-- Add spacing -->
+		<p class = "openSans spacing"> Would you like to post events of your own or even promote your events so more people can see them? Are you a company and would like to post your recruiting events on Stanford events? Use the form below to send in a request and we will get back to you promptly. Thanks!</p> <br>
+
+		<form class = "left container">
+			<p class = "openSans"> Name: <input type = "text"> </p>
+			<p class = "openSans"> Event Name: <input type = "text"> </p>
+			<p class = "openSans"> Event Date: <input type = "text"> </p>
+			<p class = "openSans"> Event Start Time: <input type = "text"> </p>
+			<p class = "openSans"> Event Finish Name: <input type = "text"> </p>
+			<p class = "openSans"> Event Location: <input type = "text"> </p>
+			<p class = "openSans"> Event Description: <input type = "text"> </p>
+			<p class = "openSans"> Message (optional): </p>
+			<textarea rows = "10" style = "width: 100%"></textarea> 
+			<input type = "submit">
+
+		</form>
+
+		<br>
 
 		<!-- Signature footer -->
 		<footer class = "gray"> &copy Ramon Miguel Flores 2013 </footer>

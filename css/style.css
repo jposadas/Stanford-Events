@@ -8,29 +8,22 @@ body {
 	width: 50%;
 }
 
-.centered { text-align: center; }
-
-.left { text-align: left; }
-
-.gray { color: #747B7B; }
-
-.red { color: red; }
-
-.openSans { font-family: 'Open Sans', sans-serif; }
-
-.lobster { font-family: 'Lobster', sans-serif; }
-
-.listItemRed { background: rgba(204, 51, 0, 0.75); color: white; }
-
-.listItemBlack { background: rgba(0, 0, 0, 0.75); color: white; }
-
-.listItemPurple { background: rgba(153, 0, 204, 0.75); color: white; }
-
 p { font-size: 20px; }
-
+a:hover { text-decoration: none; }
+.centered { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+.gray { color: #747B7B; }
+.red { color: red; }
+.openSans { font-family: 'Open Sans', sans-serif; }
+.lobster { font-family: 'Lobster', sans-serif; }
+.listItemRed { background: rgba(204, 51, 0, 0.75); color: white; }
+.listItemBlack { background: rgba(0, 0, 0, 0.75); color: white; }
+.listItemPurple { background: rgba(153, 0, 204, 0.75); color: white; }
 .halfwayDown { line-height: 2.5; height: 50px;}
-
 .spacing { line-height: 1.25; }
+.listItemEvent { background: rgba(204, 51, 0, 0.85); }
+#message { width: 100%; }
 
 .listItemRed:hover { 
 	background: rgba(204, 51, 0, 0.85); 
@@ -93,6 +86,12 @@ p { font-size: 20px; }
 	left: 70%; top: 2.5%;
 }
 
-#message {
-	width: 100%;
+.container {
+    width: 500px;
+    clear: both;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
 }
