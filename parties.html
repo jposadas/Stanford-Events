@@ -12,7 +12,7 @@
 	<title> Stanford Events </title>
 
 	<!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel = "stylesheet" type = "text/css" href = "css/foundation.min.css">
 	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
 
 	<!-- Google Web Fonts -->
@@ -20,12 +20,14 @@
 	<link href = 'http://fonts.googleapis.com/css?family=Lobster' rel = 'stylesheet' type = 'text/css'>
 
 	<!-- Javascript -->
-    <script src="js/bootstrap.min.js"></script>
+	<script type = "text/javascript" href = "js/foundation.min.js"></script>
+	<script type="text/javascript" href = "http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" href = "http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://foundation.zurb.com/docs/assets/vendor/custom.modernizr.js"></script>
 </head>
 
 <body class = "centered">
 
-	<p class = "lobster" id = "back" style = "font-size: 30px"> <a href = "index.html" onclick = "history.back(-1)"> Back </a> </p>
 	<p class = "lobster" id = "home" style = "font-size: 30px"> <a href = "index.html"> Home </a> </p>
 
 	<!-- Search bar -->
@@ -35,50 +37,28 @@
 	</form>
 
 	<!-- Header -->
-	<hgroup class = "lobster">
-		<h1> <span class = "red"> Stanford </span> Events </h1>
-		<h4> The place for everything going on at Stanford </h4>
+	<hgroup>
+		<h1 class = "lobster"> <span class = "red"> Stanford </span> Events </h1>
+		<h4 class = "lobster"> The place for everything going on at Stanford </h4>
 	</hgroup>
 
 	<br> <!-- Add spacing -->
 
-	<!-- List of event genres / navigation -->
+	<a href = "#openModal"> <p class = "listItemRed halfwayDown"> Phi Sig at the RoxBARy </p> </a>
 
-	<div class = "openSans">
-		<p class = "listItemBlack halfwayDown"> Parties </p>
-		<a href="#SVSA" data-toggle="modal"><p class = "listItemRed halfwayDown"> SVSA Pandan Waffle Study Break </p> </a>
+	<!--<a href="#openModal">Open Modal</a>-->
 
-		<div id = "SVSA" class = "modal hide fade" tabindex = "-1" role = "dialog" aria-labelledby = "myModalLabel" aria-hidden = "true">
-		  <div class = "modal-header">
-		    <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true"> × </button>
-		    <h3 id = "myModalLabel"> SVSA Pandan Waffle Study Break </h3>
-		  </div>
-		  <div class = "modal-body">
-		    <p> Thursday, March 14, 2013 </p>
-		    <p> 9 - 10 pm </p>
-		    <p> Arrillaga Family Dining Commons </p>
-		    <p> 
-		    	Come join SVSA for a study break during dead week! We’ll be serving free pandan waffles and green tea ice cream. 
-
-				Never heard of pandan waffles? These waffles are unique because of the use of pandan flavor and coconut milk. You can enjoy these alone, or with ice cream! Doesn’t that sound delicious? So be sure not to miss your chance to enjoy this special treat and chat with SVSA members to hear about our upcoming Culture Night show! 
-
-				We will also be showing Mulan in the background :D
-		    </p>
-		  </div>
-		  <div class = "modal-footer">
-		    <button class = "btn" data-dismiss = "modal" aria-hidden = "true"> Close </button>
-		  </div>
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2 class = "openSans"> Phi Sig at the RoxBARy </h2> <hr>
+			<p class = "openSans"> Date: Saturday, March 23, 2013</p>
+			<p class = "openSans">Time: 10 PM - 1 AM</p>
+			<p class = "openSans">Location: Phi Sig, Palo Alto, CA</p>
+			<p class = "openSans"> Description: Join Phi Sig as Bar Night goes back to the 1990s. Flashy 90s gear will be rewarded upon entry. SUID to Enter the RoxBARy. 21+ to Haddaway. </p>
 		</div>
-
-		<a href = "services.html"> <p class = "listItemPurple halfwayDown"> Services </p> </a>
-		<a href = "about.html"> <p class = "listItemPurple halfwayDown"> About </p> </a>
-		<a href = "contact.html"> <p class = "listItemPurple halfwayDown"> Contact </p> </a>
-
-		<br> <!-- Add spacing -->
-
-		<!-- Signature footer -->
-		<footer class = "gray"> &copy Ramon Miguel Flores 2013 </footer>
 	</div>
+
 </body>
 
 </html>
