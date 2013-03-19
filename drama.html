@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!-- Hi there! Glad to see you're taking a look at my code. If you have any feedback on how I could better improve the site, please use the feedback form on the contact page. Credit goes to Luke Knepper for inspiring the design of the site. Thanks again! -->
+
+<html>
+
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<title> Stanford Events </title>
+
+	<!-- CSS -->
+	<link rel = "stylesheet" type = "text/css" href = "css/foundation.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+
+	<!-- Google Web Fonts -->
+	<link href = 'http://fonts.googleapis.com/css?family=Open+Sans:300' rel = 'stylesheet' type = 'text/css'>
+	<link href = 'http://fonts.googleapis.com/css?family=Lobster' rel = 'stylesheet' type = 'text/css'>
+
+	<!-- Javascript -->
+	<script type = "text/javascript" href = "js/foundation.min.js"></script>
+	<script type="text/javascript" href = "http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+
+<body class = "centered">
+
+	<p class = "lobster" id = "home" style = "font-size: 30px"> <a href = "index.html"> Home </a> </p>
+
+	<!-- Search bar -->
+
+	<form method="get" action="http://www.google.com/search"> 
+		<p class = "openSans"> Search: <input type="text"> </p>
+	</form>
+
+	<!-- Header -->
+	<hgroup>
+		<h1 class = "lobster"> <span class = "red"> Stanford </span> Events </h1>
+		<h4 class = "lobster"> The place for everything going on at Stanford </h4>
+	</hgroup>
+
+	<br> <!-- Add spacing -->
+
+	<!-- List of event genres / navigation -->
+
+	<div class = "openSans">
+		<p class = "listItemBlack halfwayDown"> Drama / Theater </p>
+		<a href = "#spring"> <p class = "listItemRed halfwayDown"> Ram's Head presents: Spring Awakening</p> </a> 
+		<a href = "#jammix"> <p class = "listItemRed halfwayDown"> Jammix </p> </a>
+		<a href = "#luminaries"> <p class = "listItemRed halfwayDown"> Art is My Occupation: Stanford Luminaries </p> </a>
+		<a href = "#ethics"> <p class = "listItemRed halfwayDown"> The Ethics of Wealth: The Exception and the Rule </p> </a>
+		<a href = "#poetry"> <p class = "listItemRed halfwayDown"> Poetry Out Loud Competition </p> </a> 
+		<a href = "services.html"> <p class = "listItemPurple halfwayDown"> Services </p> </a>
+		<a href = "about.html"> <p class = "listItemPurple halfwayDown"> About </p> </a>
+		<a href = "contact.html"> <p class = "listItemPurple halfwayDown"> Contact </p> </a>
+
+		<div id="spring" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h3 class = "openSans"> Ram's Head presents: Spring Awakening </h2> <hr>
+				<p class = "openSans"> Date: April 12, 13, 18, 19, and 20, 2013</p>
+				<p class = "openSans"> Time: 8 PM - 10:30 PM</p>
+				<p class = "openSans">Location: Memorial Auditorium, Palo Alto, CA</p>
+				<p class = "openSans"> Description: Winner of 8 Tony Awards, including Best Musical, Spring Awakening is a rock musical adaptation of Frank Wedekind's 1891 expressionist play about the trials, tribulations, and exhilaration of the teenage years. Spring Awakening takes its inspiration from one of literature's most controversial masterpieces – a work so daring in its depiction of teenage self-discovery, it was banned from the stage and not performed in its complete form in English for nearly 100 years. </p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>
+
+		<div id="jammix" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Jammix </h2> <hr>
+				<p class = "openSans"> Date: Friday, April 19 2013</p>
+				<p class = "openSans"> Time: 9 PM - 11 PM</p>
+				<p class = "openSans"> Location: Roble Gym, Palo Alto, CA</p>
+				<p class = "openSans"> Description: Practice session for students in Social Dance class. </p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>
+
+		<div id="luminaries" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Art is My Occupation: Stanford Luminaries </h2> <hr>
+				<p class = "openSans"> Date: Tuesday, April 23, 2013</p>
+				<p class = "openSans"> Time: 6 PM - 8 PM</p>
+				<p class = "openSans"> Location: Roble Hall Theater, Palo Alto, CA</p>
+				<p class = "openSans"> Description: Join us for a lively panel discussion about what it means to work in the arts and how to get there. Moderated byMatthew Tiews, Director of Arts Programs, and featuring distinguished Stanford staff and faculty. </p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>
+
+		<div id="ethics" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h3 class = "openSans"> The Ethics of Wealth: "The Exception and the Rule" (play) </h3> <hr>
+				<p class = "openSans"> Date: Thursday, April 25 - Saturday, April 27, 2013</p>
+				<p class = "openSans"> Time: 8 PM - 10 PM</p>
+				<p class = "openSans"> Location: The Nitery, Palo Alto, CA</p>
+				<p class = "openSans"> Description: The Exception and the Rule tells the story of a rich merchant who must cross the fictional Yahi Desert to close an oil deal. During and after the trip, the class differences between the money-hungry merchant and his working-class porter are exposed and the prejudices of the existing legal system are shown. </p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>
+
+		<div id="poetry" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Poetry Out Loud Competition </h2> <hr>
+				<p class = "openSans"> Date: Thursday, May 23, 2013</p>
+				<p class = "openSans"> Time: 7 PM - 8 PM</p>
+				<p class = "openSans"> Location: Terrace Room (Margaret Jacks Hall), Palo Alto, CA</p>
+				<p class = "openSans"> Description: Poetry Out Loud is a poetry performance competition hosted by the Stanford English Department.  Contestants are judged on their vocal delivery of well-known poetry for cash prizes.  The final competition is May 23; a qualifying round will be held in early May.</p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>	
+
+		<br> <!-- Add spacing -->
+
+		<!-- Signature footer -->
+		<footer class = "gray"> &copy Ramon Miguel Flores 2013 </footer>
+	</div>
+</body>
+
+</html>

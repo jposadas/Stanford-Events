@@ -26,6 +26,8 @@
 
 <body class = "centered">
 
+	<p class = "lobster" id = "home" style = "font-size: 30px"> <a href = "index.html"> Home </a> </p>
+
 	<!-- Search bar -->
 
 	<form method="get" action="http://www.google.com/search"> 
@@ -43,13 +45,24 @@
 	<!-- List of event genres / navigation -->
 
 	<div class = "openSans">
-		<a href = "myEvents.html"> <p class = "listItemBlack halfwayDown"> My Events </p> </a>
-		<a href = "academic.html"> <p class = "listItemRed halfwayDown"> Academic </p> </a>
-		<a href = "athletic.html"> <p class = "listItemRed halfwayDown"> Athletic </p> </a>
-		<a href = "social.html"> <p class = "listItemRed halfwayDown"> Social </p> </a>
+
+		<p class = "listItemBlack halfwayDown"> Basketball </p>
+		<a href = "#stephen"> <p class = "listItemRed halfwayDown"> Stanford vs. Stephen F. Austin (NIT) </p> </a>
 		<a href = "services.html"> <p class = "listItemPurple halfwayDown"> Services </p> </a>
 		<a href = "about.html"> <p class = "listItemPurple halfwayDown"> About </p> </a>
 		<a href = "contact.html"> <p class = "listItemPurple halfwayDown"> Contact </p> </a>
+
+		<div id="stephen" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Stanford Cardinal vs. Stephen F. Austin Lumberjacks (NIT Round 1) </h2> <hr>
+				<p class = "openSans"> Date: Tuesday, March 18, 2013</p>
+				<p class = "openSans">Time: 8 PM - 10:30 PM</p>
+				<p class = "openSans">Location: Maples Pavilion, Palo Alto, CA</p>
+				<p class = "openSans"> Description: Watch Stanford take on the Stephen F. Austin Lumberjacks in Round 1 of the NIT tournament. </p>
+				<a href = "#" class = "button"> Add to Favorites </a>
+			</div>
+		</div>
 
 		<br> <!-- Add spacing -->
 
