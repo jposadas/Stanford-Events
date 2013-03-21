@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!-- Hi there! Glad to see you're taking a look at my code. If you have any feedback on how I could better improve the site, please use the feedback form on the contact page. Credit goes to Luke Knepper for inspiring the design of the site. Thanks again! -->
+
+<html>
+
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<title> Stanford Events </title>
+
+	<!-- CSS -->
+	<link rel = "stylesheet" type = "text/css" href = "css/foundation.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+
+	<!-- Google Web Fonts -->
+	<link href = 'http://fonts.googleapis.com/css?family=Open+Sans:300' rel = 'stylesheet' type = 'text/css'>
+	<link href = 'http://fonts.googleapis.com/css?family=Lobster' rel = 'stylesheet' type = 'text/css'>
+
+	<!-- Javascript -->
+	<script type = "text/javascript" href = "js/foundation.min.js"></script>
+	<script type="text/javascript" href = "http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+
+<body class = "centered">
+
+	<p class = "lobster" id = "home" style = "font-size: 30px"> <a href = "index.html"> Home </a> </p>
+
+	<!-- Header -->
+	<hgroup>
+		<h1 class = "lobster"> <span class = "red"> Stanford </span> Events </h1>
+		<h4 class = "lobster"> The place for everything going on at Stanford </h4>
+	</hgroup>
+
+	<br> <!-- Add spacing -->
+
+	<!-- List of event genres / navigation -->
+
+	<div class = "openSans">
+		<p class = "listItemBlack halfwayDown"> Recruiting Events </p>
+		<a href = "#security"> <p class = "listItemRed halfwayDown"> Security Workshop </p> </a>
+		<a href = "#infolab"> <p class = "listItemRed halfwayDown"> Infolab Workshop </p> </a>
+		<a href = "#mobile"> <p class = "listItemRed halfwayDown"> Mobile &amp Social Workshop </p> </a>
+		<a href = "services.html"> <p class = "listItemPurple halfwayDown"> Services </p> </a>
+		<a href = "about.html"> <p class = "listItemPurple halfwayDown"> About </p> </a>
+		<a href = "contact.html"> <p class = "listItemPurple halfwayDown"> Contact </p> </a>
+
+		<div id="security" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Security Workshop </h2> <hr>
+				<p class = "openSans"> Date: Monday, April 15, 2013</p>
+				<p class = "openSans">Time: 8:45 AM - 4:30 PM</p>
+				<p class = "openSans">Location: Fisher Conference Center, Palo Alto, CA</p>
+				<p class = "openSans"> Description: The Annual Security Workshop, now in its 14th year, will present cutting edge research on computer security from the Stanford Security Lab. </p>
+			</div>
+		</div>
+
+		<div id="infolab" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Infolab Workshop (Norcal Database Day) </h2> <hr>
+				<p class = "openSans"> Date: Wednesday, April 17, 2013</p>
+				<p class = "openSans">Time: 8:15 AM - 4:30 PM</p>
+				<p class = "openSans">Location: Fisher Conference Center, Palo Alto, CA</p>
+				<p class = "openSans"> Description: The InfoLab workshop brings together our industrial partners, alumni, and academic colleagues with research interests in all aspects of information management (examples: data analytics, social networks, crowdsourcing, information integration, novel data systems, cloud data). </p>
+			</div>
+		</div>
+
+		<div id="mobile" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2 class = "openSans"> Mobile &amp Social Workshop</h2> <hr>
+				<p class = "openSans"> Date: Thursday, April 18, 2013</p>
+				<p class = "openSans">Time: 8:30 AM - 5:00 PM</p>
+				<p class = "openSans">Location: Fisher Conference Center, Palo Alto, CA</p>
+				<p class = "openSans"> Description: The Mobile & Social Workshop presents the latest results of research in mobile and social computing by faculty and students in the department and includes invited talks by experts in the industry. </p>
+			</div>
+		</div>		
+
+		<br> <!-- Add spacing -->
+
+		<!-- Signature footer -->
+		<footer class = "gray"> &copy Ramon Miguel Flores 2013 </footer>
+	</div>
+</body>
+
+</html>
